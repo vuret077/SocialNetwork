@@ -1,0 +1,39 @@
+.nav {
+  grid-area: n;
+}
+
+.item {
+  padding: 16px 0 16px 25px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.item a {
+  color: #9a9fbf;
+  text-decoration: none;
+  transition: all .3s ease;
+  font-weight: 700;
+}
+
+.item a.active {
+  color: red;
+}
+
+.logo {
+  width: 100%;
+  height: 60px;
+  background-color: #ff5e3a;
+}
+
+.item i {
+  font-size: 20px;
+  fill: #9a9fbf;
+  transition: all .3s ease;
+  margin-right: 25px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
